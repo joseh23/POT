@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Referral Landing Page</title>
+  <link rel="stylesheet" href="file.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navigation">
+          <h1><img src="image1.jpg"> POT</h1>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+          </ul>
+        </div>
+      </nav>
+  <div class="container">
+    <h1>Refer a Friend</h1>
+    <p>To unlock referral rewards, please contribute 0.5$ and earn 0.2$ referral commission for every referral you make.</p>
+    <br>  <br>
+    <form id="contributionForm">
+      <input type="number" id="contributionAmount" placeholder="Enter amount" required>
+      <button type="submit" onclick="processPayment()">Contribute</button>
+    </form>
+    <p id="message"></p>
+    <p id="referralLinkSection" style="display: none;">
+      Your referral link: <span id="referralLink"></span>
+    </p
+    <p id="message"></p>
+    <p><a href="login.html">Login</a> or <a href="signup.html">Sign Up</a></p>
+  </div>
+  <div class="container"> 
+    <section class="qrcode-section">
+        <div class="container">
+          <h2>Scan QR Code</h2>
+          <div id="qrcode" class="qrcode-container"></div>
+        </div>
+      </section>
+    
+  </div>
+  <!-- Services Section -->
+<div class="outer">
+  <section class="services">
+    <h2>About us</h2>
+    <p>We are a registered blockchain company view registration license <a href="www.kra.go.ke">Kenya Revenue Authority.</a>
+        for more visit us at <a href="https://accounts.binance.com/en/register?ref=11852688">POT.binance.ask</a>
+    </p>
+    <!-- Add more content as needed -->
+  </section>
+
+  <!-- Testimonials Section -->
+ 
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>As the co-founder of the idea many have beneffited from this platform as many can make some part time earnings
+        just forewarding links.
+      </p>
+      <p><strong>Nelson</strong></p>
+    
+      <div class="testimonial">
+      <p>I have personally been able to pay some of my bills with this platform thanks to the developers of the idea.</p>
+      <p><strong>Joe njuguna</strong></p>
+    </div>
+    <!-- Add more testimonials as needed -->
+  </section>
+
+</div>
+<footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 POT|| All Rights Reserved.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>

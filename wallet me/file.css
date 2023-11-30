@@ -1,0 +1,323 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
+  .navigation{
+    text-align: center;
+    height: 15vh;
+        justify-content: center;
+        background-color: #333;
+  }
+  .outer{
+    margin-left: 2rem;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+
+  /* Common styles for all pages */
+
+  
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    margin-top: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  /* Styles specific to the login page */
+.container {
+    max-width: 350px;
+  }
+  
+  #loginForm {
+    margin-top: 20px;
+  }
+  
+  #loginEmail,
+  #loginPassword {
+    display: block;
+    width: calc(100% - 22px);
+    margin: 10px auto;
+  }
+  
+  button {
+    width: 100%;
+  }
+
+  
+
+  /* Styles specific to the signup page */
+.container {
+  max-width: 350px;
+}
+
+#signupForm {
+  margin-top: 20px;
+}
+
+#signupEmail,
+#signupPassword {
+  display: block;
+  width: calc(100% - 22px);
+  margin: 10px auto;
+}
+
+button {
+  width: 100%;
+}
+
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: visible; /* Clearfix for floated elements inside */
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    float: left;
+  }
+
+
+
+  /* Navbar styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden; /* Clearfix for floated elements inside */
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar h1 img {
+    width: 70px; /* Adjust the width of the logo as needed */
+    margin-right: 10px; /* Add spacing between logo and company name */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  /* Other styles remain unchanged */
+  
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+ 
+
+  /* Footer styles */
+.footer {
+    background-color: #333;
+    
+    padding: 20px 0;
+  }
+  
+  .footer .container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: visible; /* Clearfix for floated elements inside */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    float: left;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+  }
+  
+  .footer ul li {
+    display: inline;
+    margin-left: 15px;
+  }
+  
+  .footer ul li:first-child {
+    margin-left: 0;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* Default styles for larger screens */
+/* ... (existing styles for your landing page) */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 0 15px;
+    }
+  
+    .navbar h1 {
+      font-size: 20px;
+    }
+  
+    .navbar ul {
+      float: none;
+      margin-top: 15px;
+      text-align: center;
+    }
+  
+    .navbar ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .navbar ul li:last-child {
+      margin-bottom: 0;
+    }
+  
+    .logos img {
+      width: 100px; /* Adjust the size of logos for smaller screens */
+    }
+  
+    /* Adjust other styles as needed for smaller screens */
+  }
+  
+  /* QR Code Section styles */
+.qrcode-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .qrcode-section .container {
+    text-align: center;
+  }
+  
+  .qrcode-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .qrcode-container {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  
